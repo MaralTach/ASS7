@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-Ass7</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container1">
+            <!-- ******************************* -->
+            <!--             navbar              -->
+            <!-- ******************************* -->
+            <div class="navbar">
+                <nav class="navbar navbar-dark bg-dark fixed-top">
+                    <div class="container-fluid">
+                      <a class="navbar-brand fs-2 fw-semibold" href="#"><img src="./img/logo.png" width="70px" alt=""> Clarusway</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                              </a>
+                              <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                  <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                          <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-success" type="submit">Search</button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+
+            <!-- ******************************* -->
+            <!--              Card               -->
+            <!-- ******************************* -->
+        <div class="main gap-2">
+            <div class="card col-3" style="width: 18rem;">
+                <img src="./img/espresso.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Espresso</h5>
+                  <p class="card-text"> A concentrated coffee brewed by forcing hot water through finely-ground coffee beans.
+                     It's the base for many other coffee drinks.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <div class="card col-3 " style="width: 18rem;">
+                <img src="./img/coppucino.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Cappuccino</h5>
+                  <p class="card-text">Similar to a latte but with equal parts of espresso, steamed milk,
+                                     and milk froth on top.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <div class="card col-3" style="width: 18rem;">
+                <img src="./img/turkish-coffee-1478976_1280.jpg" class="card-img-top" alt="...">
+                <div class="card-body ">
+                  <h5 class="card-title">Turkish coffee</h5>
+                  <p class="card-text">Strong, aromatic, traditional, brewed in cezve, 
+                    served in small cups, with foam, enjoyed socially, cultural significance, UNESCO recognized.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <div class="card col-3 " style="width: 18rem;">
+                <img src="./img/Affogato.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Affogato</h5>
+                  <p class="card-text">A dessert-style coffee made by pouring a shot of hot espresso over 
+                    a scoop of vanilla ice cream or gelato.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <div class="card col-3" style="width: 18rem;">
+                <img src="./img/latte-art-2431160_1280.jpg" class="card-img-top" alt="...">
+                <div class="card-body ">
+                  <h5 class="card-title">Latte</h5>
+                  <p class="card-text">Made with espresso and steamed milk, usually with
+                     a small amount of froth on top. It can be flavored with syrups like vanilla or caramel.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <div class="card col-3" style="width: 18rem;">
+                <img src="./img/americano.jpeg" class="card-img-top" alt="...">
+                <div class="card-body ">
+                  <h5 class="card-title">Americano</h5>
+                  <p class="card-text">Made by diluting a shot of espresso with hot water, 
+                            giving it a similar strength to regular drip coffee but with a different flavor profile.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        </div>
+    </div>
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
