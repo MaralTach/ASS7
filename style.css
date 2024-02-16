@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    height: 100vh;
+}
+
+.card{
+    /* border: 1px solid; */
+    box-shadow: 3px 30px 50px black;
+}
+.row{
+    margin-top: 90px;
+}
+.row img{
+    /* border: 2px solid black; */
+    width: 260px;
+    height: 200px;
+    margin-top: 5px;
+    object-fit: cover;
+}
